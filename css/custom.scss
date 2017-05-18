@@ -32,7 +32,7 @@ section{padding-top: 4em; padding-bottom: 4em;
  &.PeppyCodes_Video{background:linear-gradient(rgba($primary-color, 0.7),rgba($primary-color, 0.7)),
     url(../images/OE7LK3011.jpg);color: #FFF;}
 	&.PeppyCodes_Profile{background-color: lighten($primary-color, 100);}
-&.PeppyCodes_Clients{background:linear-gradient(rgba(adjust_hue(saturate(lighten($primary-color, 57), 100), -2), 0.9),rgba(adjust_hue(saturate(lighten($primary-color, 57), 100), -2), 0.9)),
+&.PeppyCodes_Clients{background:linear-gradient(rgba(desaturate(lighten(#bd3b0c, 53), 68), 0.9),rgba(adjust_hue(saturate(lighten($primary-color, 57), 100), -2), 0.9)),
     url(../images/OE7LK3011.jpg);}
 }
 
